@@ -2,6 +2,8 @@
 
 Career Lens is a comprehensive AI-powered career advisor that extracts skills, matches profiles to roles, analyzes gaps, generates study roadmaps, and conducts portfolio reviews.
 
+Watch the demo video: https://drive.google.com/drive/folders/1a8Qm4Kx63VqAwSj9XXijOCYrMAsT9TJu?usp=sharing
+
 ## Option 1: Running with Docker Compose (Recommended)
 
 From the root directory (`career-counselor/`), run:
