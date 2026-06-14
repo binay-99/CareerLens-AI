@@ -1,0 +1,47 @@
+[
+  {
+    "id": "persona-001",
+    "persona": {
+      "name": "Priya",
+      "background": "BSc Mathematics, 1 year tutoring, self-taught Python (6 months), built 2 small Flask apps",
+      "raw_input": "I have a maths degree and taught myself Python last year. I built a Flask app for tracking my reading and a small data viz project using matplotlib. I want to move into tech but don't know where to start."
+    },
+    "expected": {
+      "top_roles_should_include": ["Data Scientist (Mid-level)", "Backend Software Engineer (Mid-level)"],
+      "top_roles_should_not_include": ["DevOps Engineer (Mid-level)", "Cybersecurity Analyst (Mid-level)"],
+      "critical_gaps_should_include": ["SQL", "Statistics", "Pandas/Numpy"],
+      "roadmap_should_mention": ["portfolio project", "SQL", "GitHub"],
+      "tone_must": ["acknowledge maths strength", "no guaranteed outcomes", "specific to her background"]
+    }
+  },
+  {
+    "id": "persona-002",
+    "persona": {
+      "name": "Alex",
+      "background": "Arts Graduate, graphic design background, 3 months learning HTML/CSS and Figma",
+      "raw_input": "I graduated with an art degree and did graphic design for local business clients. Lately, I've been designing screen UI wireframes on Figma and learning HTML/CSS. I want to build interfaces."
+    },
+    "expected": {
+      "top_roles_should_include": ["UX/UI Designer (Mid-level)", "Frontend Software Engineer (Mid-level)"],
+      "top_roles_should_not_include": ["Machine Learning Engineer (Mid-level)", "Cloud Solutions Architect (Senior)"],
+      "critical_gaps_should_include": ["JavaScript", "TypeScript", "React"],
+      "roadmap_should_mention": ["wireframe", "Figma", "React"],
+      "tone_must": ["acknowledge visual design strength", "no job guarantees", "actionable code practice"]
+    }
+  },
+  {
+    "id": "persona-003",
+    "persona": {
+      "name": "Marcus",
+      "background": "IT support staff, 3 years configuring network switches, basic bash scripting",
+      "raw_input": "I have been working as an IT desktop support tech for 3 years. I configure network routers, switches and write basic bash scripts to automate computer resets. I want to transition to cloud infrastructure."
+    },
+    "expected": {
+      "top_roles_should_include": ["DevOps Engineer (Mid-level)", "Cybersecurity Analyst (Mid-level)", "Cloud Solutions Architect (Senior)"],
+      "top_roles_should_not_include": ["UX/UI Designer (Mid-level)", "Product Manager (Mid-level)"],
+      "critical_gaps_should_include": ["Docker", "Kubernetes", "AWS or Azure", "CI/CD"],
+      "roadmap_should_mention": ["containers", "bash script", "cloud configurations"],
+      "tone_must": ["value network understanding", "avoid guarantee language"]
+    }
+  }
+]

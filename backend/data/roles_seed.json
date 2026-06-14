@@ -1,0 +1,172 @@
+[
+  {
+    "id": "swe-backend-mid",
+    "title": "Backend Software Engineer (Mid-level)",
+    "family": "Engineering",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Python", "weight": 0.9, "type": "technical"},
+      {"skill": "REST APIs", "weight": 0.85, "type": "technical"},
+      {"skill": "SQL", "weight": 0.8, "type": "technical"},
+      {"skill": "Git", "weight": 0.75, "type": "technical"},
+      {"skill": "System design basics", "weight": 0.7, "type": "technical"}
+    ],
+    "nice_to_have": ["Docker", "Kubernetes", "AWS", "Redis"],
+    "avg_salary_range": {"min": 70000, "max": 110000, "currency": "GBP"},
+    "typical_background": "CS degree or bootcamp + 2-4 years experience",
+    "description": "Designs, builds, and maintains the server-side logic, databases, and APIs of software applications."
+  },
+  {
+    "id": "swe-frontend-mid",
+    "title": "Frontend Software Engineer (Mid-level)",
+    "family": "Engineering",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "JavaScript", "weight": 0.9, "type": "technical"},
+      {"skill": "React", "weight": 0.9, "type": "technical"},
+      {"skill": "CSS", "weight": 0.8, "type": "technical"},
+      {"skill": "TypeScript", "weight": 0.85, "type": "technical"},
+      {"skill": "Git", "weight": 0.75, "type": "technical"}
+    ],
+    "nice_to_have": ["Next.js", "Tailwind CSS", "Redux", "Webpack"],
+    "avg_salary_range": {"min": 65000, "max": 100000, "currency": "GBP"},
+    "typical_background": "Bootcamp, self-taught, or CS degree + 2-4 years experience",
+    "description": "Implements the visual elements, user interactions, and styling of responsive web applications."
+  },
+  {
+    "id": "data-scientist-mid",
+    "title": "Data Scientist (Mid-level)",
+    "family": "Data Science",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Python", "weight": 0.9, "type": "technical"},
+      {"skill": "Statistics", "weight": 0.85, "type": "technical"},
+      {"skill": "Machine Learning", "weight": 0.8, "type": "technical"},
+      {"skill": "SQL", "weight": 0.8, "type": "technical"},
+      {"skill": "Pandas/Numpy", "weight": 0.85, "type": "technical"}
+    ],
+    "nice_to_have": ["R", "Tableau", "Spark", "Docker"],
+    "avg_salary_range": {"min": 75000, "max": 120000, "currency": "GBP"},
+    "typical_background": "Degree in Mathematics, Statistics, CS, or related quantitative field",
+    "description": "Analyzes complex datasets to extract insights, build predictive models, and guide business decisions."
+  },
+  {
+    "id": "devops-engineer-mid",
+    "title": "DevOps Engineer (Mid-level)",
+    "family": "Engineering",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Linux", "weight": 0.85, "type": "technical"},
+      {"skill": "Docker", "weight": 0.9, "type": "technical"},
+      {"skill": "CI/CD", "weight": 0.85, "type": "technical"},
+      {"skill": "Kubernetes", "weight": 0.8, "type": "technical"},
+      {"skill": "AWS", "weight": 0.8, "type": "technical"}
+    ],
+    "nice_to_have": ["Terraform", "Ansible", "Bash scripting", "Python"],
+    "avg_salary_range": {"min": 80000, "max": 130000, "currency": "GBP"},
+    "typical_background": "Sysadmin, Backend Engineer or DevOps Bootcamp + 2-4 years experience",
+    "description": "Bridges the gap between development and operations teams, automating deployment pipelines and infrastructure."
+  },
+  {
+    "id": "product-manager-mid",
+    "title": "Product Manager (Mid-level)",
+    "family": "Product",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Product Strategy", "weight": 0.85, "type": "technical"},
+      {"skill": "Agile/Scrum", "weight": 0.8, "type": "technical"},
+      {"skill": "Communication", "weight": 0.95, "type": "soft"},
+      {"skill": "Data Analysis", "weight": 0.75, "type": "technical"},
+      {"skill": "Stakeholder Management", "weight": 0.9, "type": "soft"}
+    ],
+    "nice_to_have": ["SQL", "Jira", "User Research", "A/B Testing"],
+    "avg_salary_range": {"min": 70000, "max": 110000, "currency": "GBP"},
+    "typical_background": "Business, Engineering or Design background + MBA or PM experience",
+    "description": "Defines the product roadmap, user stories, and features, coordinating cross-functional teams to deliver value."
+  },
+  {
+    "id": "ux-designer-mid",
+    "title": "UX/UI Designer (Mid-level)",
+    "family": "Design",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Figma", "weight": 0.95, "type": "technical"},
+      {"skill": "User Research", "weight": 0.85, "type": "technical"},
+      {"skill": "Prototyping", "weight": 0.85, "type": "technical"},
+      {"skill": "Wireframing", "weight": 0.8, "type": "technical"},
+      {"skill": "Visual Design", "weight": 0.8, "type": "technical"}
+    ],
+    "nice_to_have": ["HTML/CSS", "Design Systems", "Usability Testing", "Adobe CC"],
+    "avg_salary_range": {"min": 55000, "max": 85000, "currency": "GBP"},
+    "typical_background": "Design degree, bootcamp, or strong portfolio",
+    "description": "Researches user needs, designs interfaces, prototypes user flows, and builds visually appealing designs."
+  },
+  {
+    "id": "cybersecurity-analyst-mid",
+    "title": "Cybersecurity Analyst (Mid-level)",
+    "family": "Security",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Network Security", "weight": 0.85, "type": "technical"},
+      {"skill": "Threat Analysis", "weight": 0.85, "type": "technical"},
+      {"skill": "SIEM", "weight": 0.8, "type": "technical"},
+      {"skill": "Linux", "weight": 0.75, "type": "technical"},
+      {"skill": "Incident Response", "weight": 0.8, "type": "technical"}
+    ],
+    "nice_to_have": ["Wireshark", "CEH certification", "Python", "Metasploit"],
+    "avg_salary_range": {"min": 65000, "max": 95000, "currency": "GBP"},
+    "typical_background": "IT Support, CS degree, or specialized Security bootcamp",
+    "description": "Monitors network systems for suspicious activity, performs audits, and mitigates security threats."
+  },
+  {
+    "id": "qa-engineer-mid",
+    "title": "QA Automation Engineer (Mid-level)",
+    "family": "Engineering",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Test Automation", "weight": 0.9, "type": "technical"},
+      {"skill": "Selenium or Cypress", "weight": 0.85, "type": "technical"},
+      {"skill": "Python or JS", "weight": 0.8, "type": "technical"},
+      {"skill": "Git", "weight": 0.75, "type": "technical"},
+      {"skill": "Manual Testing", "weight": 0.7, "type": "technical"}
+    ],
+    "nice_to_have": ["Postman", "CI/CD integration", "Jira", "Performance testing"],
+    "avg_salary_range": {"min": 50000, "max": 80000, "currency": "GBP"},
+    "typical_background": "Manual QA transitioning to code, or Junior Developer",
+    "description": "Writes code to automate test suites, performs manual regression testing, and ensures software quality."
+  },
+  {
+    "id": "ml-engineer-mid",
+    "title": "Machine Learning Engineer (Mid-level)",
+    "family": "Engineering",
+    "seniority": "mid",
+    "required_skills": [
+      {"skill": "Python", "weight": 0.9, "type": "technical"},
+      {"skill": "Machine Learning", "weight": 0.9, "type": "technical"},
+      {"skill": "Deep Learning", "weight": 0.85, "type": "technical"},
+      {"skill": "PyTorch or TensorFlow", "weight": 0.85, "type": "technical"},
+      {"skill": "Docker", "weight": 0.75, "type": "technical"}
+    ],
+    "nice_to_have": ["Kubeflow", "MLflow", "AWS", "CUDA", "C++"],
+    "avg_salary_range": {"min": 85000, "max": 140000, "currency": "GBP"},
+    "typical_background": "Quantitative degree (CS, Math, Physics) + data/ML experience",
+    "description": "Deploys machine learning models to production, builds inference pipelines, and optimizes system training scalability."
+  },
+  {
+    "id": "cloud-architect-senior",
+    "title": "Cloud Solutions Architect (Senior)",
+    "family": "Engineering",
+    "seniority": "senior",
+    "required_skills": [
+      {"skill": "AWS or Azure", "weight": 0.95, "type": "technical"},
+      {"skill": "System design", "weight": 0.95, "type": "technical"},
+      {"skill": "Terraform", "weight": 0.85, "type": "technical"},
+      {"skill": "Kubernetes", "weight": 0.8, "type": "technical"},
+      {"skill": "Cost Optimization", "weight": 0.8, "type": "technical"}
+    ],
+    "nice_to_have": ["Security Audits", "Networking", "Multi-cloud systems", "Python"],
+    "avg_salary_range": {"min": 100000, "max": 160000, "currency": "GBP"},
+    "typical_background": "DevOps Engineer or Lead Backend Engineer + 5+ years cloud experience",
+    "description": "Designs high-availability, scalable, and secure cloud systems to support enterprise applications."
+  }
+]
